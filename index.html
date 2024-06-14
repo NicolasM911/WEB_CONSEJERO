@@ -130,9 +130,21 @@
 
 
     <div class="container">
-        <h1>Instrucciones Chatbot 🤖</h1>
+        <div>
+            <p class="mb-4">Tambien disponible: <a class="text-success" href="https://t.me/ConsejeroIA_bot">Version
+                    Telegram</a>.</p>
+        </div>
         <div class="instruction">
-            <h2><span class="highlight">1. </span>Limitaciones</h2>
+            <h1 class="mb-4 text-success">Que hace este Chatbot 🤖</h1>
+            <p>Creada por nuestro equipo de tecnología, este chatbot consejero es una inteligencia artificial que da consejos, resuelve dudas, da ejemplos
+                prácticos y ayuda a hacer una inmersión mayor sobre tus sentimientos.
+                Su objetivo es responder a las preguntas más comunes y auxiliar a la persona en sus diferentes situaciones.
+                Estamos queriendo mejorar esta IA creada para ti. Si tienes comentarios sobre esta herramienta, escribenos dando
+                <a class="text-success" href="#contact">clic aquí.</a></p>
+        </div>
+        <div class="instruction">
+            <h1 class="mb-4 text-success">Instrucciones Chatbot 🤖</h1>
+            <h2><span class="mb-4 highlight">1. </span>Limitaciones</h2>
             <p>El chatbot no reemplaza a un profesional de la salud mental. En caso de crisis, busca ayuda profesional o
                 servicios de emergencia.</p>
         </div>
@@ -173,11 +185,67 @@
 
         <div class="instruction">
             <h2><span class="highlight">9. </span>Encuesta</h2>
-            <p>En el siguiente <a
+            <p>En el siguiente <a class="text-success"
                     href="https://docs.google.com/forms/d/e/1FAIpQLSczqfaLny9netzWmYlUCNsE_9f5Ta6voSw9lutw1jcE-HlRyQ/viewform"
                     target="_blank">Enlace</a>, por favor realiza la encuesta, nos ayudara bastante 💎.</p>
 
         </div>
+
+
+        <!-- Contact Start -->
+        <div class="container-xxl pb-5" id="contact">
+            <div class="container py-5">
+                <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-6">
+                        <h1 class="display-5 mb-0 text-success">Trabajemos juntos</h1>
+                    </div>
+                    <!-- <div class="col-lg-6 text-lg-end">
+                        <a class="btn btn-primary py-3 px-5" href="">Say Hello</a>
+                    </div> -->
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <p class="mb-4">¿Críticas, sugerencias o elogios? Completa el formulario.</p>
+                    </div>
+                    <form id="contact-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Nombre</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Mensaje</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-success py-3 px-5" type="submit">Enviar</button>
+                            </div>
+                            <div class="col-12">
+                                <p id="status-message"></p>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-success me-2" href=""><i class="fab fa-telegram"></i></a>
+                        <!-- <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+        <script src="js/contact.js"></script>
 
 
         <!-- Copyright Start -->
@@ -200,6 +268,8 @@
         </div>
     </div>
     <!-- Copyright End -->
+
+
 
 
     <!-- Back to Top -->
