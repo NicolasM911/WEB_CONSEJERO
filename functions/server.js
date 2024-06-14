@@ -27,7 +27,7 @@ exports.handler = async (event) => {
   const mail = {
     from: name,
     to: "tecnologia.sistemas11n@gmail.com",
-    subject: "Contacto desde su Portfolio en React",
+    subject: "Contacto desde la pagina web del BOT",
     html: `<p>Name: ${name}</p>
            <p>Email: ${email}</p>
            <p>Phone: ${phone}</p>
