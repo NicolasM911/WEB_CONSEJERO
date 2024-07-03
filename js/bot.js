@@ -1,7 +1,7 @@
 
 import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
 Chatbot.init({
-    chatflowid: "022c41f7-4395-435b-bc9f-7094a307b053",
+    chatflowid: "1bcfd88e-26c0-4d3a-a4ff-117e9ac3125f",
     apiHost: "https://flowise-ia-85db.onrender.com",
     chatflowConfig: {
         //topK: 2
