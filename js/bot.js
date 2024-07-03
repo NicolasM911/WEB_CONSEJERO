@@ -16,7 +16,7 @@ Chatbot.init({
             customIconSrc: "https://i.pinimg.com/originals/0c/67/5a/0c675a8e1061478d2b7b21b330093444.gif",
         },
         chatWindow: {
-            welcomeMessage: "Hola, soy tu asistente emocional, ¿cómo te sientes el día de hoy?",
+            welcomeMessage: "Hola, soy tu asistente emocional, ¿Cómo te sientes el día de hoy?",
             backgroundColor: "#ffffff",
             height: 600,
             width: 380,
