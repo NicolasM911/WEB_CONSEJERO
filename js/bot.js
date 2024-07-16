@@ -1,8 +1,8 @@
 
 import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
 Chatbot.init({
-    chatflowid: "c6d02d1b-6972-445d-9f1b-d508259bbf6d",
-    apiHost: "https://flowiseai-railway-production-6dc5.up.railway.app",
+    chatflowid: "97490e2b-0da3-486e-96f5-33f6719844c6",
+    apiHost: "https://flowiseai-railway-production-b128.up.railway.app",
     chatflowConfig: {
         //topK: 2
     },
@@ -16,7 +16,7 @@ Chatbot.init({
             customIconSrc: "https://i.pinimg.com/originals/0c/67/5a/0c675a8e1061478d2b7b21b330093444.gif",
         },
         chatWindow: {
-            welcomeMessage: "Hola, soy tu asistente emocional, ¿cómo te sientes el día de hoy?",
+            welcomeMessage: "Hola, soy tu asistente emocional, ¿Cómo te sientes el día de hoy?",
             backgroundColor: "#ffffff",
             height: 600,
             width: 380,
