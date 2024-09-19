@@ -1,8 +1,8 @@
 
 import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
 Chatbot.init({
-    chatflowid: "97490e2b-0da3-486e-96f5-33f6719844c6",
-    apiHost: "https://flowiseai-railway-production-b128.up.railway.app",
+    chatflowid: "61696dad-7cc7-46d5-b7de-66a2b44e356e",
+    apiHost: "https://flowiseai-railway-production-b8690.up.railway.app",
     chatflowConfig: {
         //topK: 2
     },
