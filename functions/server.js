@@ -26,7 +26,7 @@ exports.handler = async (event) => {
   // Configurar el correo electrónico a enviar
   const mail = {
     from: name,
-    to: "tecnologia.sistemas11n@gmail.com",
+    to: "tecnologia.sistemas11n@gmail.com, ariasruizcamilaa@gmail.com",
     subject: "Contacto desde la pagina web del BOT",
     html: `<p>Name: ${name}</p>
            <p>Email: ${email}</p>
